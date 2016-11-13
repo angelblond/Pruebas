@@ -1,0 +1,25 @@
+Sitios Importantes:
+
+Codigos de color RGB:
+
+  http://www.sitiosargentina.com.ar/webmaster/CODIGOS%20DE%20COLORES.htm
+
+  http://html-color-codes.info/codigos-de-colores-hexadecimales/
+
+Atributos de las Hojas de Estilo en Cascada:
+
+  http://www.desarrolloweb.com/articulos/186.php
+
+Cuadros de texto:
+
+  http://www.desarrolloweb.com/articulos/648.php
+
+Nuevos Marcos con CSS:
+
+  http://www.lawebera.es/como-hacer/ejemplos-css/simular-frames-marcos-con-html-y-css.php
+
+Cursos CSS:
+
+  https://librosweb.es/libro/css/capitulo_1.html
+
+  https://librosweb.es/libro/css_avanzado/

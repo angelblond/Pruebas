@@ -1,0 +1,76 @@
+<HTML>
+	<HEAD>
+		<TITLE> Formulario de pruebas </TITLE>
+	</HEAD>
+	<BODY>
+		<H1> Ejemplo de formulario en HTML </H1>
+		<FORM ACTION="mailto:ceangelblond@gmail.com" METHOD="POST" ENCTYPE="TEXT/PLAIN">
+			<B>Cuadro de texto: </B>
+			<BR/>
+			<INPUT TYPE="TEXT" NAME="CUADRO1" VALUE="texto de ejemplo" MAXLENGTH="40" SIZE="50" STYLE="text-align:center">
+			<BR/><BR/>
+			<B>Cuadro de contraseña:</B>
+			<BR/>
+			<INPUT TYPE="PASSWORD" NAME="CUADRO2" MAXLENGTH="40" SIZE="50">
+			<BR/><BR/>
+			<B>Area de texto (ideal para foros):</B>
+			<BR/>
+			<TEXTAREA NAME="COMENTARIOS" ROWS="6" COLS="40">Un ejemplo de comentario</TEXTAREA>
+			<BR/><BR/>
+			<B>Cuadros de lista desplegable (drop-down):</B>
+			<BR/>
+			<SELECT NAME="DROP1">
+				<OPTION>Lunes</OPTION>
+				<OPTION>Martes</OPTION>
+				<OPTION>Miércoles</OPTION>
+				<OPTION>Jueves</OPTION>
+				<OPTION>Viernes</OPTION>
+				<OPTION>Sábado</OPTION>
+				<OPTION>Domingo</OPTION>
+			</SELECT>
+			<BR/><BR/>
+			<B>Cuadros de lista:</B>
+			<BR/>
+			<SELECT NAME="LIST1" SIZE="3">
+				<OPTION>Enero</OPTION>
+				<OPTION>Febrero</OPTION>
+				<OPTION>Marzo</OPTION>
+				<OPTION>Abril</OPTION>
+				<OPTION>Mayo</OPTION>
+				<OPTION>Junio</OPTION>
+				<OPTION>Julio</OPTION>
+				<OPTION>Agosto</OPTION>
+				<OPTION>Septiembre</OPTION>
+				<OPTION>Octubre</OPTION>
+				<OPTION>Noviembre</OPTION>
+				<OPTION>Diciembre</OPTION>
+			</SELECT>
+			<BR/><BR/>
+			<B>Cuadros de lista múltiples:</B>
+			<BR/>
+			<SELECT NAME="LIST2" MULTIPLE SIZE="3">
+				<OPTION>Perros</OPTION>
+				<OPTION>Gatos</OPTION>
+				<OPTION>Peces</OPTION>
+				<OPTION>Ratones</OPTION>
+				<OPTION>Aves</OPTION>				
+			</SELECT>
+			<BR/><BR/>
+			<B>Cuadros de chequeo (checkbox)</B><BR>
+			<INPUT TYPE="CHECKBOX" NAME="CHECK1">Peperone</INPUT><BR>
+			<INPUT TYPE="CHECKBOX" NAME="CHECK2">Anchoas</INPUT><BR>
+			<INPUT TYPE="CHECKBOX" NAME="CHECK3" CHECKED>Jamón</INPUT><BR>
+			<INPUT TYPE="CHECKBOX" NAME="CHECK4">Queso</INPUT><BR>
+			<INPUT TYPE="CHECKBOX" NAME="CHECK5">Aceitunas</INPUT><BR>
+			<BR/>
+			<B>Cuadros de opción (radio button)</B><BR>
+			<INPUT TYPE="RADIO" NAME="CONJUNTO_RADIO" VALUE="Soltero" CHECKED>Soltero</INPUT><BR>
+			<INPUT TYPE="RADIO" NAME="CONJUNTO_RADIO" VALUE="Casado">Casado</INPUT><BR>
+			<INPUT TYPE="RADIO" NAME="CONJUNTO_RADIO" VALUE="Divorciado">Divorciado</INPUT><BR>
+			<INPUT TYPE="RADIO" NAME="CONJUNTO_RADIO" VALUE="Viudo">Viudo</INPUT><BR>
+			<BR/><BR/>
+			<INPUT TYPE="SUBMIT" VALUE="Enviar al correo electronico"></INPUT>
+			<INPUT TYPE="reset" VALUE="Reiniciar datos">
+		</FORM>
+	</BODY>
+</HTML>

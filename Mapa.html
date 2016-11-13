@@ -1,0 +1,23 @@
+<HTML>
+	<HEAD>
+		<TITLE>Ejemplo de mapa visual</TITLE>
+		<META CHARSET="UTF-8"/>
+	</HEAD>
+	<BODY>
+		<H1>Mapa con cuadros</H1>
+		<MAP NAME="mi_mapa">
+			<AREA SHAPE="RECT" COORDS="46,40,250,75" HREF="Pagina1.html">
+			<AREA SHAPE="RECT" COORDS="46,100,250,135" HREF="Formulario.html">
+			<AREA SHAPE="DEFAULT" NOHREF>
+		</MAP>
+		<IMG SRC="mapa.gif" USEMAP="#mi_mapa">
+		<BR/><BR/>
+		<H1>Mapa con círculos</H1>
+		<MAP name="planetmap">
+		  <area shape="rect" coords="0,0,82,126" href="https://es.wikipedia.org/wiki/Sol" alt="Sun">
+		  <area shape="circle" coords="90,58,3" href="https://es.wikipedia.org/wiki/Mercurio_(planeta)" alt="Mercury">
+		  <area shape="circle" coords="124,58,8" href="https://es.wikipedia.org/wiki/Venus_(planeta)" alt="Venus">
+		</MAP> 
+		<IMG src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+	</BODY>
+</HTML>
