@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplos de bloque</title>
+		<meta charset="utf-8"/>
+		<style>
+			#linea1, #linea2{
+				display:block;
+				border: orange 3px solid;
+			}
+			#col1,#col2,#col3{
+				display:inline;
+				border: red 3px solid;
+			}
+			#izquierda,#centro,#derecha{
+				display: inline-block;
+				border: blue 3px solid;
+				width: 32%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="izquierda">
+			contenido izquierda
+			<br/>
+			<video width="300px" height="100px" controls>
+				<source src="file:///F:/Series/Thundercats/01 Primera Temporada/ThunderCats 002.mp4"/>
+			</video>
+		</div>
+		<div id="centro">
+			contenido centro
+			<br/>
+			<audio controls>
+				<source src="file:///E:/Mi música/Antonio Vivaldi/Allegro.mp3" type="audio/mpeg"/>
+				No audio supported
+			</audio>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor a veritatis perspiciatis. Nemo dignissimos repellat dolorum labore esse, sed, cum nam, voluptas hic nostrum iure fuga modi. Necessitatibus tempore iste deserunt libero molestias consequuntur voluptatum excepturi porro, qui aspernatur iure minima officia sequi et quasi sint earum cum exercitationem illo!
+		</div>
+		<div id="derecha">
+			contenido derecha
+			<br/>
+			<img src="file:///E:/Mis imágenes/Logos/00041611.jpg" width="60px" height="100px" title="Esto es Linux" ondblclick="alert('doblee')"/>
+		</div>
+		<div id="linea1">Contenido linea1</div>
+		<div id="col1">Contenido col1
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore fuga cum repellat nulla nobis voluptates exercitationem aperiam totam officia voluptatibus, deserunt magni quibusdam eligendi necessitatibus sapiente consectetur, aspernatur vero cupiditate ducimus. Cum soluta molestias asperiores!
+		</div>
+		<div id="col2">Contenido col2</div>
+		<div id="col3">Contenido col3</div>
+		<div id="linea2">Contenido linea2</div>
+	</body>
+</html>

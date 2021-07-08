@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ejemplo de tags de texto</title>
+		<script>
+			function registerColor(){
+				console.log('Color: ' + document.getElementById('cpicker').value)
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Widgets nuevos en HTML5</h1>
+		Fecha: <input type="date"/><br/><br/>
+		Hora: <input type="time"/><br/><br/>
+		Color: <input type="color" id="cpicker" onchange="registerColor()"/><br/><br/>
+		Correo electrónico: <input type="email"/><br/><br/>
+		Clave: <input type="password"/><br/><br/>
+		Rango: <input type="range" min="0" max="100"/>
+	</body>
+</html>
