@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo2.css"/>
+		<script type="text/javascript" src="js/cambiarPestanna.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<title>Prueba de pestañas</title>
+	</head>
+	<body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+		<div class="contenedor">
+			<div class="titulo">¿Sobre que escribiré en el blog?</div>
+			<div id="pestanas">
+				<ul id=lista>
+					<li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>HTML</a></li>
+					<li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>CSS</a></li>
+					<li id="pestana3"><a href='javascript:cambiarPestanna(pestanas,pestana3);'>Javascript</a></li>
+				</ul>
+			</div>
+			
+			<div id="contenidopestanas">
+				<div id="cpestana1">
+					Contenido de la pestaña 1
+				</div>
+				<div id="cpestana2">
+					Contenido de la pestaña 2
+				</div>
+				<div id="cpestana3">
+					Contenido de la pestaña 3
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
